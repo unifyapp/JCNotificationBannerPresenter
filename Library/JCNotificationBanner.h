@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-typedef void (^JCNotificationBannerTapHandlingBlock)();
+typedef void (^JCNotificationBannerTapHandlingBlock)(void);
 
 @interface JCNotificationBanner : NSObject
 
